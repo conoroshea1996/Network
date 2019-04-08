@@ -1,0 +1,78 @@
+form{
+    text-align: center;
+    padding: 5px;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.wrapper{
+    background: #FFD151;
+    width: 100%;
+    height:100vh;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+
+.login{
+    position: relative;
+    margin:auto;
+    top:25%;
+    width: 50%;
+    background:rgb(252, 250, 244);
+    opacity: 0.95;
+    border: 2px solid #CA5310;
+    border-radius: 15px;
+    font-size: 1.5rem;
+}
+.login-header{
+    position: relative;
+    top:0;
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+    background:rgba(247, 209, 23, 0.822);
+    border-bottom:1px solid #E77728 ; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: rgb(238, 143, 76);
+    font-style: italic;
+}
+.login-header h1{
+    font-family: 'Pacifico', cursive;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #E77728;
+}
+.main_btn{
+    background: rgba(202, 84, 16, 0.884);
+    border-radius: 10px;
+    width: 6rem;
+    border:none;
+    padding:3px;
+    color: #FFD151;
+    font-weight: bold;
+    font-style: oblique;
+}
+.main_btn:hover{
+    background: rgb(248, 129, 61);
+    cursor: pointer;
+}
+input{
+    border-radius: 10px;
+    padding-left:5px;
+    outline: none;
+}
+input:focus{
+    background:rgb(252, 244, 223);
+}
+
+
+
