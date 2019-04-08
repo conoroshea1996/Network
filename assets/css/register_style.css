@@ -8,6 +8,13 @@ form{
     padding:0;
 }
 
+a{
+    text-decoration: none;
+    color:#E77728;
+    font-size:1rem;
+    text-transform: capitalize;
+}
+
 .wrapper{
     background: #FFD151;
     width: 100%;
@@ -24,7 +31,7 @@ form{
 .login{
     position: relative;
     margin:auto;
-    top:25%;
+    top:30%;
     width: 50%;
     background:rgb(252, 250, 244);
     opacity: 0.95;
@@ -50,6 +57,7 @@ form{
     text-transform: uppercase;
     font-style: italic;
     color: #E77728;
+    -webkit-text-stroke: 1px #F26419;
 }
 .main_btn{
     background: rgba(202, 84, 16, 0.884);
@@ -60,19 +68,28 @@ form{
     color: #FFD151;
     font-weight: bold;
     font-style: oblique;
+    transition: all 1s ease;
+    margin-top: 10px;
 }
 .main_btn:hover{
     background: rgb(248, 129, 61);
     cursor: pointer;
+    transform:translateY(-1px);
 }
 input{
     border-radius: 10px;
     padding-left:5px;
     outline: none;
+    border-color: #FFD151;
 }
 input:focus{
     background:rgb(252, 244, 223);
 }
+.second{
+    display: none;
+}
+
+
 
 
 
