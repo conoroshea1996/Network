@@ -1,13 +1,7 @@
-<?php  
-require 'config/config.php';
+<?php
+include ("./includes/header.php");
 
 ?>
-
-<html>
-<head>
-	<title>Network</title>
-</head>
-<body>
 	Hello Conor!!!!!
 </body>
 </html>

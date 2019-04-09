@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.main{
+    background:  rgba(247, 210, 23, 0.733);
+    border-bottom: dashed 2px #F26419;
+}
+/*########### NAVBAR ########### */
+.navbar-logo{
+    font-family: 'Pacifico', cursive;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #E77728;
+    -webkit-text-stroke: 2px #F26419;
+    font-size:1.8rem;
+}
+.navbar-logo:hover{
+    text-decoration: none;
+    color: rgba(247, 210, 23, 0.733);
+}
+.searchbar{
+    border-radius: 20px;
+    height:1.5rem;
+    z-index: 4;
+    border-color:#F26419;
+}
+.searchbar:focus{
+    box-shadow: none;
+    border-color:#F26419;
+    background: rgb(252, 244, 223);
+}
+.search-btn{
+    background:#F26419;
+    height:1.5rem;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transform: translateX(-10px);
+    transition: all 3s ease;
+}
+
+.searchbar:focus +.search-btn i { 
+ transform: rotate(360deg);
+ transition: all 1s ease;
+}
+
+.search-btn i{
+    color: rgb(252, 244, 223);
+    line-height: 0;
+    transform: rotate(90deg);
+}
+
+.icons a{
+   color: #F26419;
+   font-size: 20px;
+   padding: 0 5px;
+}
+.icons a:hover{
+    text-decoration: none;
+}
+.icons a i:hover{
+    color: rgb(252, 244, 223);
+    -webkit-transform: scale(1.2);
+    border-bottom: solid 0.2px;
+    transition: all 0.6s ease-in-out;
+}
+
+.username{
+    text-transform: capitalize;
+   
+}
+.username:hover{
+    text-decoration: underline !important;
+}
+
+
+
+
+
+
+
+

@@ -14,6 +14,21 @@ require 'includes/form_handlers/login_handler.php';
 	<script src="assets/js/register.js"></script>
 </head>
 <body>
+	<?php
+	if (isset($_POST['register_button'])){
+
+		echo'
+		<script>
+				$document.ready(function (){
+					$(".first").hide();
+					$(".second").show();
+				});
+
+		</script>
+		';
+	}
+	?>
+	
 <div class ="wrapper">
 
 <video autoplay muted loop id="myVideo">
@@ -36,7 +51,9 @@ require 'includes/form_handlers/login_handler.php';
 				<br>
 				<input type="password" name="log_password" placeholder="Password">
 				<br>
+				<div class="error-message">
 				<?php if(in_array("Email or password was incorrect<br>", $error_array)) echo  "Email or password was incorrect<br>"; ?>
+				</div>
 				<input class="main_btn" type="submit" name="login_button" value="Login">
 				<br>
 				<a href="#" id="signup" class="signup">Create your account here</a>

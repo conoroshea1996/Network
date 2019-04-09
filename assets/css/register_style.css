@@ -8,6 +8,10 @@ form{
     padding:0;
 }
 
+:root{
+    --main-network: #E77728;
+}
+
 a{
     text-decoration: none;
     color:#E77728;
@@ -75,6 +79,11 @@ a{
     background: rgb(248, 129, 61);
     cursor: pointer;
     transform:translateY(-1px);
+}
+.error-message{
+    color: #E77728;
+    font-style: oblique;
+    font-size: 13px;
 }
 input{
     border-radius: 10px;
